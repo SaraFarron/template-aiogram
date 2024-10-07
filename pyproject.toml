@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "telegram-bot"
+version = "0.1.0"
+description = "A template for telegram bot with sqlalchemy, scheduler and aiogram"
+authors = ["SerahFarron <https://t.me/SaraFaron>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+SQLAlchemy = "^2.0.35"
+alembic = "^1.13.3"
+aiojobs = "^1.3.0"
+aiogram = "^3.13.1"
+python-dotenv = "^1.0.1"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
