@@ -19,3 +19,13 @@ alembic upgrade head
 ```
 
 # Commands
+
+Installation
+```shell
+poetry install
+mv .env.example .env
+# Fill in PYTHONPATH and TOKEN in .env
+alembic revision --autogenerate -m 'init'
+alembic upgrade head
+# execute with src/main.py
+```
