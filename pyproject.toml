@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "telegram-bot"
-version = "1.0.0"
+version = "1.0.1"
 description = "A template for telegram bot with sqlalchemy, scheduler and aiogram"
 authors = ["SerahFarron <https://t.me/SaraFaron>"]
 readme = "README.md"
