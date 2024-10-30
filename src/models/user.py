@@ -44,3 +44,5 @@ class User(Base):
     """ Telegram user premium status """
     role: Mapped[Role] = mapped_column(sa.Enum(Role), default=Role.USER)
     """ User's role """
+    is_banned : Mapped[bool] = mapped_column(sa.Boolean, default=False)
+    """ User's ban status """
